@@ -9,11 +9,11 @@
 1. **平均长度**：每局结束时蛇的平均身体长度  
 2. **最大长度**：所有对局中蛇达到的最大身体长度
 
-| 算法 | 演示视频（最优表现） | 平均长度 | 最大长度 |
-|:---:|:---:|:---:|:---:|
-| GRPO 算法 | <video controls src="docs/grpo_demo.mp4" title="GRPO演示"></video> | 12.038 | 26 |
-| Double DQN 算法 | <video controls src="docs/dqn_demo.mp4" title="Double DQN演示"></video> | 12.151 | 22 |
-| PPO 算法 | <video controls src="docs/ppo_demo.mp4" title="PPO演示"></video> | 11.653 | 20 |
+| 算法 | 演示 | 平均奖励 | 回合数 |
+|------|------|----------|--------|
+| GRPO 算法 | [grpo_demo.mp4](docs/grpo_demo.mp4) | 12.038 | 26 |
+| Double DQN 算法 | [dqn_demo.mp4](docs/dqn_demo.mp4) | 12.151 | 22 |
+| PPO 算法 | [ppo_demo.mp4](docs/ppo_demo.mp4) | 11.653 | 20 |
 
 ## 算法细节与调优尝试
 
@@ -51,3 +51,4 @@
 
 ---
 **作者：浙江大学学生-绿意不息**
+
