@@ -43,12 +43,12 @@
         <img src="docs/grpo_all.png" alt="GRPO（基于完整轨迹计算优势值，每20局更新一次）" width="90%" /><br/>
         <em>GRPO（完整轨迹优势估计），每20局更新一次</em>
       </td>
-    </tr>
-    <tr>
       <td align="center">
         <img src="docs/grpo.png" alt="GRPO（单步计算优势值，每20局更新一次）" width="90%" /><br/>
         <em>GRPO（单步优势估计），每20局更新一次</em>
       </td>
+    </tr>
+    <tr>
       <td align="center">
         <img src="docs/ppo_1.png" alt="同步PPO（每局更新一次）" width="90%" /><br/>
         <em>同步PPO，每完成一局即更新</em>
@@ -57,17 +57,17 @@
         <img src="docs/ppo_10.png" alt="同步PPO（每10局更新一次）" width="90%" /><br/>
         <em>同步PPO，每10局进行一次更新</em>
       </td>
+      </td>
+      <td align="center">
+        <img src="docs/ppo_dec.png" alt="异步PPO（前期每20局、后期每10局更新一次）" width="30%" /><br/>
+        <em>异步PPO，更新频率随训练阶段调整（前期20局/次，后期10局/次）</em>
+      </td>
     </tr>
   </table>
-  
-  <br/>
-  
-  <img src="docs/ppo_dec.png" alt="异步PPO（前期每20局、后期每10局更新一次）" width="30%" /><br/>
-  <em>异步PPO，更新频率随训练阶段调整（前期20局/次，后期10局/次）</em>
-</div>
 
 ---
 **作者：浙江大学学生-绿意不息**
+
 
 
 
