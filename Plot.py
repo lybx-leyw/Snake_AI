@@ -6,7 +6,7 @@ plot脚本：提取文件数据，绘画可视化折线图
 
 """
 在我的训练日志中，所有包含训练过程的数据都含有多个数字
-我们只想绘制平均长度-更新次数的图像，并在Conclusion中详细标注我们每一次更新的次数
+我们只想绘制平均长度-更新次数的图像，并在Conclusion中详细标注我们每一次更新的局数
 """
 
 # 需要知道我们的平均长度是在文件中的第几个数字
@@ -22,7 +22,7 @@ def pause(path,index):
             else:
                 x_index += 1
                 x_plot.append(x_index)
-                y_plot.append(numbers[index])
+                y_plot.append(float(numbers[index]))
     return x_plot,y_plot
 
 def draw(x_plot,y_plot,save_path):
@@ -36,31 +36,29 @@ def draw(x_plot,y_plot,save_path):
     plt.savefig(save_path,bbox_inches='tight',dpi=100)
     plt.close()
 
-'''
-x_plot,y_plot = pause(path="train_log_partial_rainbow.txt",index=1)
+x_plot,y_plot = pause(path="logs\\train_log_partial_rainbow.txt",index=1)
 draw(x_plot,y_plot,"docs\\partial_rainbow.png")
 '''
 '''
-x_plot,y_plot = pause(path="train_log_ppo_1.txt",index=1)
+x_plot,y_plot = pause(path="logs\\train_log_ppo_1.txt",index=1)
 draw(x_plot,y_plot,"docs\\ppo_1.png")
 '''
 '''
-x_plot,y_plot = pause(path="train_log_ppo_10.txt",index=1)
+x_plot,y_plot = pause(path="logs\\train_log_ppo_10.txt",index=1)
 draw(x_plot,y_plot,"docs\\ppo_10.png")
 '''
 '''
-x_plot,y_plot = pause(path="train_log_ppo.txt",index=1)
+x_plot,y_plot = pause(path="logs\\train_log_ppo.txt",index=1)
 draw(x_plot,y_plot,"docs\\ppo_dec.png")
 '''
 '''
-x_plot,y_plot = pause(path="train_log_double.txt",index=1)
+x_plot,y_plot = pause(path="logs\\train_log_double.txt",index=1)
 draw(x_plot,y_plot,"docs\\double.png")
 '''
 '''
-x_plot,y_plot = pause(path="train_log_grpo.txt",index=1)
+x_plot,y_plot = pause(path="logs\\train_log_grpo.txt",index=1)
 draw(x_plot,y_plot,"docs\\grpo.png")
 '''
 '''
-x_plot,y_plot = pause(path="train_log_grpo_all.txt",index=1)
+x_plot,y_plot = pause(path="logs\\train_log_grpo_all.txt",index=1)
 draw(x_plot,y_plot,"docs\\grpo_all.png")
-'''
