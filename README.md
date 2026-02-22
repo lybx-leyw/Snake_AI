@@ -28,29 +28,49 @@
 
 以下为各算法及变体在训练过程中的性能变化图示：
 
-![Double DQN（每20局更新一次）](docs/double.png)  
-*Double DQN，每20局进行一次网络更新*
-
-![Rainbow DQN（每50局更新一次）](docs/partial_rainbow.png)  
-*Rainbow DQN，每50局进行一次网络更新*
-
-![GRPO（基于完整轨迹计算优势值，每20局更新一次）](docs/grpo_all.png)  
-*GRPO（完整轨迹优势估计），每20局更新一次*
-
-![GRPO（单步计算优势值，每20局更新一次）](docs/grpo.png)  
-*GRPO（单步优势估计），每20局更新一次*
-
-![同步PPO（每局更新一次）](docs/ppo_1.png)  
-*同步PPO，每完成一局即更新*
-
-![同步PPO（每10局更新一次）](docs/ppo_10.png)  
-*同步PPO，每10局进行一次更新*
-
-![异步PPO（前期每20局、后期每10局更新一次）](docs/ppo_dec.png)  
-*异步PPO，更新频率随训练阶段调整（前期20局/次，后期10局/次）*
-
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="docs/double.png" alt="Double DQN（每20局更新一次）" width="80%" /><br/>
+        <em>Double DQN，每20局进行一次网络更新</em>
+      </td>
+      <td align="center">
+        <img src="docs/partial_rainbow.png" alt="Rainbow DQN（每50局更新一次）" width="80%" /><br/>
+        <em>Rainbow DQN，每50局进行一次网络更新</em>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="docs/grpo_all.png" alt="GRPO（基于完整轨迹计算优势值，每20局更新一次）" width="80%" /><br/>
+        <em>GRPO（完整轨迹优势估计），每20局更新一次</em>
+      </td>
+      <td align="center">
+        <img src="docs/grpo.png" alt="GRPO（单步计算优势值，每20局更新一次）" width="80%" /><br/>
+        <em>GRPO（单步优势估计），每20局更新一次</em>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="docs/ppo_1.png" alt="同步PPO（每局更新一次）" width="80%" /><br/>
+        <em>同步PPO，每完成一局即更新</em>
+      </td>
+      <td align="center">
+        <img src="docs/ppo_10.png" alt="同步PPO（每10局更新一次）" width="80%" /><br/>
+        <em>同步PPO，每10局进行一次更新</em>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2">
+        <img src="docs/ppo_dec.png" alt="异步PPO（前期每20局、后期每10局更新一次）" width="40%" /><br/>
+        <em>异步PPO，更新频率随训练阶段调整（前期20局/次，后期10局/次）</em>
+      </td>
+    </tr>
+  </table>
+</div>
 ---
 **作者：浙江大学学生-绿意不息**
+
 
 
 
