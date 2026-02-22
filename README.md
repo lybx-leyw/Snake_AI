@@ -11,9 +11,9 @@
 
 | 算法 | 演示 | 平均长度 | 最大长度 |
 |:------:|:------:|:--------:|:--------:|
-| **GRPO 算法** | <img src="docs/grpo_demo.gif" alt="grpo_demo" width="40%" /> | 12.038 | 26 |
-| **Double DQN 算法** | <img src="docs/dqn_demo.gif" alt="dqn_demo" width="40%" /> | 12.151 | 22 |
-| **PPO 算法** | <img src="docs/ppo_demo.gif" alt="ppo_demo" width="40%" /> | 11.653 | 20 |
+| **GRPO 算法** | <img src="docs/grpo_demo.gif" alt="grpo_demo" width="120" /> | 12.038 | 26 |
+| **Double DQN 算法** | <img src="docs/dqn_demo.gif" alt="dqn_demo" width="120" /> | 12.151 | 22 |
+| **PPO 算法** | <img src="docs/ppo_demo.gif" alt="ppo_demo" width="120" /> | 11.653 | 20 |
 
 ## 算法细节与调优尝试
 
@@ -68,6 +68,7 @@
 
 ---
 **作者：浙江大学学生-绿意不息**
+
 
 
 
