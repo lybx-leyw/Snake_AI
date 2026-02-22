@@ -59,7 +59,7 @@
       </td>
       </td>
       <td align="center">
-        <img src="docs/ppo_dec.png" alt="异步PPO（前期每20局、后期每10局更新一次）" width="30%" /><br/>
+        <img src="docs/ppo_dec.png" alt="异步PPO（前期每20局、后期每10局更新一次）" width="90%" /><br/>
         <em>异步PPO，更新频率随训练阶段调整（前期20局/次，后期10局/次）</em>
       </td>
     </tr>
@@ -67,6 +67,7 @@
 
 ---
 **作者：浙江大学学生-绿意不息**
+
 
 
 
